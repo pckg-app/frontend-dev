@@ -1,0 +1,19 @@
+{
+  "name": "pckg-app/frontend-dev",
+  "description": "Frontend pckg dev package",
+  "homepage": "https://github.com/pckg-app/frontend-dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bojan Rajh",
+      "email": "schtr4jh@schtr4jh.net"
+    }
+  ],
+  "require": {
+    "maximebf/debugbar": "^1.16",
+    "codeception/codeception": "4.*",
+    "codeception/module-asserts": "dev-master"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
