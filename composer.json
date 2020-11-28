@@ -12,8 +12,25 @@
   "require": {
     "maximebf/debugbar": "^1.16",
     "codeception/codeception": "4.*",
-    "codeception/module-asserts": "1.*"
+    "codeception/module-asserts": "1.*",
+    "codeception/module-webdriver": "dev-master",
+    "squizlabs/php_codesniffer": "^3.5",
+    "phpstan/phpstan": "^0.12.42",
+    "phpstan/phpstan-strict-rules": "^0.12.5",
+    "appzcoder/phpcloc": "^0.0.2",
+    "codeception/module-phpbrowser": "^1.0",
+    "codeception/module-rest": "^1.2",
+    "codeception/module-asserts": "^1.0.0"
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "scripts": {
+    "test": [
+      "vendor/bin/phpunit --help",
+      "vendor/bin/phpcloc cloc app/",
+      "vendor/bin/phpstan analyse app/ --level=4",
+      "vendor/bin/phpcs -p app/",
+      "vendor/bin/codecept run"
+    ]
+  }
 }
