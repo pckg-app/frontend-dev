@@ -1,6 +1,6 @@
 {
   "name": "pckg-app-frontend-dev",
-  "version": "0.0.3c",
+  "version": "0.0.3d",
   "description": "Frontend pckg dev package",
   "keywords": [
     "package",
@@ -59,7 +59,7 @@
     "url-loader": "^4.*",
     "vue-loader": "^15.*",
     "vue-template-compiler": "^2.*",
-    "webpack": "^5.*",
+    "webpack": "^4.*",
     "webpack-cli": "^4.*",
     "webpack-dev-server": "^3.*",
     "webpack-merge": "^5.*"
