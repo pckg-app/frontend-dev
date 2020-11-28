@@ -1,6 +1,6 @@
 {
   "name": "pckg-app-frontend-dev",
-  "version": "0.0.3e",
+  "version": "0.0.3f",
   "description": "Frontend pckg dev package",
   "keywords": [
     "package",
@@ -44,7 +44,7 @@
     "hard-source-webpack-plugin": "^0.*",
     "less": "^3.*",
     "less-loader": "^7.*",
-    "mini-css-extract-plugin": "^1.*",
+    "mini-css-extract-plugin": "^0.*",
     "path": "^0.*",
     "prettier": "^2.*",
     "regenerator-runtime": "^0.*",
