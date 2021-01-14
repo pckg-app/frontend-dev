@@ -8,7 +8,7 @@ Default set of dev dependencies for pckg.
 
 ## JS
  - Babel, Webpack
- - Loaders: JS, TS, Vue, CSS, LESS, SASS, URL, file, Babel
+ - Loaders: JS, TS, Vue, CSS, LESS, S(C|A)SS, URL, file, Babel
  - Optimizers: Terser, UglifyJS
 
 `$ yarn add pckg-app-frontend-dev --dev`
