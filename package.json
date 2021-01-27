@@ -19,7 +19,7 @@
   "license": "MIT",
   "private": false,
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=10.0.0"
   },
   "engineStrict": true,
   "dependencies": {
@@ -50,10 +50,10 @@
     "regenerator-runtime": "^0.*",
     "sass": "^1.*",
     "sass-loader": "^10.*",
-    "postcss": "^8.2.2",
-    "postcss-import": "^14.0.0",
-    "postcss-loader": "^4.1.0",
-    "postcss-preset-env": "^6.7.0",
+    "postcss": "^8.*",
+    "postcss-import": "^14.*",
+    "postcss-loader": "^4.*",
+    "postcss-preset-env": "^6.*",
     "style-loader": "^2.*",
     "ts-loader": "^8.*",
     "typescript": "^4.*",
