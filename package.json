@@ -1,6 +1,6 @@
 {
   "name": "pckg-app-frontend-dev",
-  "version": "0.0.5b",
+  "version": "0.0.5c",
   "description": "Frontend pckg dev package",
   "keywords": [
     "package",
@@ -19,7 +19,7 @@
   "license": "MIT",
   "private": false,
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=12.0.0"
   },
   "engineStrict": true,
   "dependencies": {
