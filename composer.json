@@ -12,7 +12,6 @@
   "require": {
     "maximebf/debugbar": "^1.16",
     "codeception/codeception": "4.*",
-    "codeception/module-ampq": "1.*",
     "codeception/module-asserts": "1.*",
     "codeception/module-db": "1.*",
     "codeception/module-phpbrowser": "1.*",
