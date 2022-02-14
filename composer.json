@@ -10,6 +10,7 @@
     }
   ],
   "require": {
+    "php": ">=8.0",
     "maximebf/debugbar": "^1.16",
     "codeception/codeception": "4.*",
     "codeception/module-asserts": "1.*",
