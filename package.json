@@ -1,6 +1,6 @@
 {
   "name": "pckg-app-frontend-dev",
-  "version": "0.0.7a",
+  "version": "1.0.0",
   "description": "Frontend pckg dev package",
   "keywords": [
     "package",
@@ -50,8 +50,6 @@
     "path": "^0.*",
     "prettier": "^2.*",
     "regenerator-runtime": "^0.*",
-    "sass": "^1.*",
-    "sass-loader": "^10.*",
     "postcss": "^8.*",
     "postcss-import": "^14.*",
     "postcss-loader": "^4.*",
